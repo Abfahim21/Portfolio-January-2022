@@ -17,8 +17,8 @@ body{
 }
 header{
     background: var(--dark);
-    padding-bottom: 40px;
-    clip-path: polygon(100% 0, 100% 100%, 73% 90%, 0 100%, 0 0);
+    padding-bottom: 80px;
+    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
 }
 .container{
     max-width: 1152px;
@@ -44,6 +44,10 @@ header nav{
 .right{
     color: var(--pure);
 }
+.about{
+    padding-bottom: 80px;
+    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+}
 .hero .right h6{
     font-size: 1.6rem;
     color: var(--primary);
@@ -60,4 +64,37 @@ header nav{
 .hero .right p {
     line-height: 1.9;
     margin-bottom: 2rem;
+}
+.about .container .right {
+    color: var(--dark);
+}
+.about .container .right span{
+    color: var(--primary);
+}
+section.about .container .left img {
+    margin-right: 88px;
+}
+
+section.about .container .right h4 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+section.about .container .right p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+section.about .container .right h2{
+    font-size: 25.6px;
+    font-weight: 400;
+}
+.fab{
+    padding-right: 10px;
+    cursor: pointer;
+    color: black;
+}
+.about{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }

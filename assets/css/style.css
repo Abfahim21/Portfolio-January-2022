@@ -5,6 +5,7 @@
     --pure:#FFFFFF;
     --ternary:#ca9898;
     --light:#F2F2F2;
+    --secondary:#070606;
 }
 *{
     padding: 0;
@@ -95,6 +96,68 @@ section.about .container .right h2{
     color: black;
 }
 .about{
+    background-color: white;
+    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
     margin-top: 80px;
     margin-bottom: 80px;
+    
+}
+.services{
+    background: var(--light);
+    padding-top: 100px;
+    margin-top: -143px;
+}
+.services .container h2{
+    color: var(--secondary);
+    text-align: center;
+    line-height: 0.5;
+    margin-bottom: 1rem ;
+}
+.services .container h2 span {
+    color: var(--primary);
+}
+.services .container p{
+    text-align: center;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+.services .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    
+}
+.services .card-wrapper .card{
+    background: var(--pure);
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+}
+.services .card-wrapper .card img{
+    position: absolute;
+    top: -3.5rem;
+    left: 120px;
+}
+
+.card-wrapper{
+    margin-top: 70px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+}
+footer {
+    background: black;
+    padding: 20px;
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+    /* margin: 20px; */
+}
+footer h2 span{
+    color: var(--primary);
 }
